@@ -1,5 +1,6 @@
 import React from "react";
 import Toggletheme from "./Toggletheme";
+import { Github, Linkedin } from "lucide-react";
 
 function Navbar() {
   console.log();
@@ -25,7 +26,26 @@ function Navbar() {
               <span class="text-gray-600 dark:text-red-400">)</span>
             </pre> */}
           </div>
-          <div>
+          <div className="flex items-center sm:space-x-4">
+            <a
+              href="
+             https://linkedin.com/in/abhishek--panchal"
+              target="_blank"
+              rel="noreferrer"
+              className="dark:bg-gray-600  dark:hover:bg-gray-700 bg-gray-300 hover:bg-gray-400 p-2 rounded-full"
+            >
+              <Linkedin className="text-slate-800 dark:text-gray-200" />
+            </a>
+            <a
+              href="
+            https://github.com/abhi-2107/"
+              target="_blank"
+              rel="noreferrer"
+              className="dark:bg-gray-600  dark:hover:bg-gray-700 bg-gray-300 hover:bg-gray-400 p-2 rounded-full"
+            >
+              <Github className="text-slate-800 dark:text-gray-200" />
+            </a>
+
             <Toggletheme />
           </div>
         </div>
