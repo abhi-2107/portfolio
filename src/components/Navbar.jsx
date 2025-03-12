@@ -11,7 +11,7 @@ function Navbar() {
           <div className="text-2xl font-bold text-red-400">
             <pre>
               (<span className="text-sky-500">&lt;/&gt;</span>)
-              <span className="text-amber-600 dark:text-gray-300 ms-1">
+              <span className="text-amber-600 dark:text-gray-300 ms-1 hidden sm:flex">
                 Web Developer
               </span>
             </pre>
@@ -26,7 +26,7 @@ function Navbar() {
               <span class="text-gray-600 dark:text-red-400">)</span>
             </pre> */}
           </div>
-          <div className="flex items-center sm:space-x-4">
+          <div className="flex items-center space-x-4">
             <a
               href="
              https://linkedin.com/in/abhishek--panchal"
