@@ -5,8 +5,8 @@ function Navbar() {
   console.log();
   return (
     <>
-      <nav className="font-normal  p-0">
-        <div className=" mx-auto flex justify-between items-center py-2 px-5">
+      <nav className="font-normal ">
+        <div className=" mx-auto flex justify-between items-center py-2 ">
           <div className="text-2xl font-bold text-red-400">
             <pre>
               (<span className="text-sky-500">&lt;/&gt;</span>)
