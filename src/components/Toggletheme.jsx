@@ -25,10 +25,10 @@ function Toggletheme() {
       {" "}
       <button
         onClick={toggleTheme}
-        className="p-2 rounded-full transition duration-300 bg-blue-500 dark:bg-gray-700 hover:bg-blue-600 dark:hover:bg-gray-600"
+        className="p-2 rounded-full transition duration-300 bg-yellow-200 dark:bg-gray-300 hover:bg-yellow-300 dark:hover:bg-gray-600"
       >
         {theme === "light" ? (
-          <Sun size={24} className="text-yellow-500" />
+          <Sun size={24} className="text-slate-800" />
         ) : (
           <Moon size={24} className="text-gray-200 " />
         )}
