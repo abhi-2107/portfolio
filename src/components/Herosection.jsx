@@ -3,8 +3,8 @@ import React from "react";
 function Herosection() {
   return (
     <div className="bg-stone-200 dark:bg-gray-900  dark:text-white py-7 px-2 sm:p-12 text-center  flex flex-col justify-center items-center rounded">
-      <h1 className="text-6xl mb-5 text-slate-800 dark:text-white">Hi I'm Abhishek Panchal</h1>
-      <p className="text-base  mb-10">
+      <h1 className="text-6xl mb-5 text-slate-800 dark:text-white tracking-tighter">Hi,I'm Abhishek Panchal</h1>
+      <p className="text-base  mb-10 tracking-tighter">
         I am passionate about delivering pixel-perfect UI with smooth
         functionality while maintaining code readability and performance. My
         goal is to create engaging and accessible web applications that leave a
