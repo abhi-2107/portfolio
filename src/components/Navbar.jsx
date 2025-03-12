@@ -11,7 +11,7 @@ function Navbar() {
           <div className="text-2xl font-bold text-red-400">
             <pre>
               (<span className="text-sky-500">&lt;/&gt;</span>)
-              <span className="text-amber-600 dark:text-gray-300 ms-1 hidden sm:flex">
+              <span className="text-amber-600 dark:text-gray-300 ms-1 hidden sm:inline">
                 Web Developer
               </span>
             </pre>
