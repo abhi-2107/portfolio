@@ -15,7 +15,7 @@ function Herosection() {
         lasting impact. Feel free to explore my projects, and let’s connect if
         you’re looking to collaborate or build something amazing together!
       </p>
-      <div className="bg-amber-50  dark:bg-black p-5 px-3 rounded sm:w-4/5 max-w-xl">
+      <div className="bg-amber-50 text-left  dark:bg-black p-5 px-3 rounded sm:w-4/5 max-w-xl">
         <p className="font-mono text-lime-500 m-0">
           C:\Users\Abhishek\Currently_at&gt; Stegpearl Pvt. Ltd. Jaipur_
         </p>
