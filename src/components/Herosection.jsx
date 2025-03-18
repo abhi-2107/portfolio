@@ -1,10 +1,14 @@
 import React from "react";
+import Typewriter from "./Typewriter";
+import Progress from "./Progress";
 
 function Herosection() {
   return (
-    <div className="bg-stone-200 dark:bg-gray-900  dark:text-white py-7 px-2 sm:p-12 text-center  flex flex-col justify-center items-center rounded">
-      <h1 className="text-6xl mb-5 text-slate-800 dark:text-white tracking-tighter">Hi,I'm Abhishek Panchal</h1>
-      <p className="text-base  mb-10 tracking-tighter">
+    <div className="bg-stone-200 dark:bg-gray-900  dark:text-white py-7 px-2 sm:p-12 text-center  flex flex-col justify-center items-center   rounded">
+      <h1 className="text-5xl font-bold mb-5 text-slate-800 dark:text-white tracking-tighter">
+        <Typewriter text={"Hello, I'm Abhishek!"} speed={8} cursorSize={45} />
+      </h1>
+      <p className="text-base text-left w-full mb-10 tracking-tighter">
         I am passionate about delivering pixel-perfect UI with smooth
         functionality while maintaining code readability and performance. My
         goal is to create engaging and accessible web applications that leave a
@@ -19,9 +23,8 @@ function Herosection() {
           <p className="font-mono dark:text-white text-sm">
             Working since: April 2023 - Present
           </p>
-          <div className="w-full bg-gray-700 rounded-full h-2.5 mt-1">
-            <div className="bg-lime-500 h-2.5 rounded-full w-3/4"></div>
-          </div>
+          <Progress progress="75%" color="#84cc16" />
+
           <p className="font-mono text-gray-400 text-xs mt-1">
             Ongoing journey...
           </p>
@@ -30,12 +33,8 @@ function Herosection() {
           <p className="font-mono dark:text-white text-sm">
             Freelancer: 2022 - April 2023
           </p>
-          <div className="w-full bg-gray-700 rounded-full h-2.5 mt-1">
-            <div
-              className="bg-yellow-500 h-2.5 rounded-full w-100"
-            
-            ></div>
-          </div>
+          <Progress progress="100%" color="rgb(234 179 8)" />
+
           <p className="font-mono text-gray-400 text-xs mt-1">
             Completed journey
           </p>

@@ -76,3 +76,32 @@
     @apply bg-background text-foreground;
   }
 }
+
+.typerwriter {
+  display: inline-flex;
+}
+
+.cursor {
+  display: inline-block;
+  background: black;
+  height: 18px;
+  width: 3px;
+  margin-bottom: -3px;
+  animation: blink 0.7s infinite;
+  margin-left: 1px;
+}
+.dark .cursor {
+  background: white;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
