@@ -78,8 +78,8 @@ function Projects() {
         <div className="bg-amber-100 text-zinc-600 dark:bg-zinc-800 dark:text-white rounded-t-lg flex justify-between items-center sm:pl-4  ">
           <div className="flex items-center mt-2 space-x-2">
             <div className="flex items-center justify-between dark:bg-black px-2 py-2 rounded-t-md  text-sm">
-              <span className="flex items-center">
-                <SquareTerminal size={20} className="mr-2" />
+              <span className="flex items-center sm:w-48">
+                <SquareTerminal size={20} className="mr-2 -skew-x-12" />
                 Windows PowerShell
               </span>
               <X

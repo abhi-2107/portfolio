@@ -6,13 +6,13 @@ function Navbar() {
   console.log();
   return (
     <>
-      <nav className="font-normal ">
-        <div className=" mx-auto flex justify-between items-center py-2 ">
+      <nav className="font-normal sticky top-0 z-50 dark:bg-gray-900 bg-stone-200 ">
+        <div className=" mx-auto flex justify-between items-center p-2 px-4  dark:shadow-gray-800 shadow-slate-400  shadow-lg">
           <div className="text-2xl font-bold text-red-400">
             <pre>
               (<span className="text-sky-500">&lt;/&gt;</span>)
               <span className="text-amber-600 dark:text-gray-300 ms-1 hidden sm:inline">
-                Web Developer
+                Frontend Developer
               </span>
             </pre>
             {/* <pre class="text-base">
